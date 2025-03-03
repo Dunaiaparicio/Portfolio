@@ -4,31 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dunai Aparicio Sanchez | Portfolio</title>
+    <script src="https://kit.fontawesome.com/YOUR-FONTAWESOME-KIT.js" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 40px;
             padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
+            background-color: #111117;
+            color: #dad7eb;
         }
         .container {
             max-width: 700px;
             margin: auto;
-            background: white;
+            background: #1e1e2f; 
             padding: 20px;
             border-radius: 8px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
         }
         h1, h2 {
-            color: #2c3e50;
+            color: #9cb3f0;
         }
         a {
-            color: #0077cc;
+            color: #0099ff;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
+        }
+        .projects img {
+            width: 100%;
+            border-radius: 6px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .projects img:hover {
+            transform: scale(1.05);
+        }
+        .social-icons {
+            font-size: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
         }
     </style>
 </head>
@@ -36,16 +51,22 @@
     <div class="container">
         <h1>Dunai Aparicio Sanchez</h1>
         <p><strong>Marketing & Data Analyst</strong></p>
-        
+
         <h2>About Me</h2>
         <p>Marketing professional with experience in market research, data analysis, and project coordination. Passionate about driving engagement and optimizing strategies.</p>
 
         <h2>Projects</h2>
-        <ul>
-            <li><strong>PFLAG Membership & Retention Strategy</strong> – <a href="#">View Details</a></li>
-            <li><strong>Omni-Channel Marketing at Lululemon</strong> – <a href="#">View Details</a></li>
-            <li><strong>Market Research & Product Development</strong> – <a href="#">View Details</a></li>
-        </ul>
+        <div class="projects">
+            <a href="https://your-project-link.com">
+                <img src="https://your-image-link.com" alt="PFLAG Membership Retention">
+            </a>
+            <a href="https://your-project-link.com">
+                <img src="https://your-image-link.com" alt="Omni-Channel Marketing">
+            </a>
+            <a href="https://your-project-link.com">
+                <img src="https://your-image-link.com" alt="Lululemon Forage Project">
+            </a>
+        </div>
 
         <h2>Skills</h2>
         <ul>
@@ -56,11 +77,12 @@
 
         <h2>Contact</h2>
         <p>Email: <a href="mailto:dunai.aparicio@gmail.com">dunai.aparicio@gmail.com</a></p>
-<p>LinkedIn: 
-    <a href="https://www.linkedin.com/in/dunai-aparicio/" target="_blank">
-        <i class="fa-brands fa-linkedin"></i> Dunai Aparicio
-    </a>
-</p>
+        <p class="social-icons">
+            LinkedIn: 
+            <a href="https://www.linkedin.com/in/dunai-aparicio/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i> Dunai Aparicio
+            </a>
+        </p>
     </div>
 </body>
 </html>
